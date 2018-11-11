@@ -21,4 +21,4 @@
   - Fonction `translate(x,y)` pour décaler le canvas en fonction de la position de la souris `mouseX`.
 - [03c - sketches/03-loadCSV-c](sketches/03-loadCSV-c)
   - Tracé vectoriel de la ligne avec `beginShape()` et `endShape()`, et la fonction `curveVertex()`.
-  - Modulo `%` pour savoir si un nombre est un multiple d'un autre nombre. Pour savoir si le nombre est un multiple de 50, on évalue le reste de la division du nombre par 50 : `if(h%50==0)`. Si il reste 0, ce nombre un multiple de 50;
+  - Modulo `%` pour savoir si un nombre est un multiple d'un autre nombre. Pour savoir si un nombre est un multiple de 50, on évalue le reste de la division du nombre par 50 : `if(h%50==0)`. Si il reste 0, ce nombre est bien un multiple de 50;
