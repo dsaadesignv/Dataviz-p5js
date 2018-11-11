@@ -54,7 +54,7 @@ function draw() {
     let lx = map(h,1750,2008,20,w);
     stroke(180);
     line(lx,40,lx,height-5);
-    // codition pour savoir si la date est un multiple de 50 : % permet d'obtenir le restant d'une division
+    // condition pour savoir si la date est un multiple de 50 : % permet d'obtenir le restant d'une division
     if(h%50==0){
       stroke(120);
       line(lx,25,lx,height-5);
