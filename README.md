@@ -8,7 +8,7 @@
   - Stockage des données dans un `Array` (tableau).
   - Boucle `for` pour parcourir le tableau.
   - Fonction `map()` pour calculer la position x des `rect()`.
-  - `push()` et `pop()` pour isoler les transformations `rotate` et `translate` (sinon tout le canvas est transformé).
+  - `push()` et `pop()` pour isoler les transformations `rotate()` et `translate()` (sinon tout le canvas est transformé).
 - [02b - sketches/02-Array-b](sketches/02-Array-b)
   - Boucle `for` pour calculer le total et positionner les nouveaux rectangles du diagramme.
 - [03a - sketches/03-loadCSV-a](sketches/03-loadCSV-a)
