@@ -2,15 +2,15 @@
 
 ## Sketches
 - [01 - sketches/01-Sans-boucle](sketches/01-Sans-boucle)
- - Pas de boucle (!).
- - Utilisation de la propriété `height` du canvas.
+  - Pas de boucle (!).
+  - Utilisation de la propriété `height` du canvas.
 - [02a - sketches/02-Array-a](sketches/02-Array-a)
- - Stockage des données dans un `Array` (tableau).
- - Boucle `for` pour parcourir le tableau.
- - Fonction `map()` pour calculer la position x des `rect()`.
- - `push()` et `pop()` pour isoler les transformations `rotate` et `translate` (sinon tout le canvas est transformé).
+  - Stockage des données dans un `Array` (tableau).
+  - Boucle `for` pour parcourir le tableau.
+  - Fonction `map()` pour calculer la position x des `rect()`.
+  - `push()` et `pop()` pour isoler les transformations `rotate` et `translate` (sinon tout le canvas est transformé).
 - [02b - sketches/02-Array-b](sketches/02-Array-b)
- - Boucle `for` pour calculer le total et positionner les nouveaux rectangles du diagramme.
+  - Boucle `for` pour calculer le total et positionner les nouveaux rectangles du diagramme.
 - [03a - sketches/03-loadCSV-a](sketches/03-loadCSV-a)
   - Données stockées dans un fichier .csv externe (données séparées par des virgules)
   - Chargement des données dans une fonction globale `preload()` avec `loadTable()`
