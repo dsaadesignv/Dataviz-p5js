@@ -15,6 +15,7 @@
 - **[02a - sketches/02-Array-a](sketches/02-Array-a)**
   - Stockage des données dans un `Array` (tableau).
   - Boucle `for(let i = 0; i < n; i++){ }` pour parcourir le tableau.
+    - Une source pour mieux comprendre le potentiel des boucles : [00 - Functions/boucle-for](sketches/00-Functions/boucle-for)
   - Fonction `map()` pour calculer la position x des `rect(x,y,largeur,hauteur)`.
     - La fonction `map()` en détail : [00 - Functions/map](sketches/00-Functions/map)
     - Une horloge avec `map()` : [00 - Functions/mapClock](sketches/00-Functions/mapClocl)
