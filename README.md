@@ -43,3 +43,11 @@
 ---
 - **[04c - sketches/04-loadJSON-c](sketches/04-loadJSON-c)**
   - Création d'un slider avec `createSlider()` pour parcourir les données
+---
+- **[04d - sketches/04-loadJSON-WEBGL-d](sketches/04-loadJSON-WEBGL-d)**
+  - Création d'un canvas WEBGL en ajoutant le paramètre `WEBGL` à la fin de la fonction de création du canvas.
+  - Création de sphères avec la fonction `sphere(rayon)`.
+  - Fonctions de transformation 3D : `rotateX`, `rotateY` et `rotateZ`.
+  - Fonction `mouseWheel(event)` pour surveiller l'utilisation de la molette ou du scroll du pad. La valeur récupérée est affectée la variable permettant de contrôler le zoom (`posZ`).
+  - Création d'une fonction `convert(lat,lon)` pour convertir les coordonnées GPS en coordonnées cartésiennes `x`, `y` et `z`.
+  - Fonction `sin(nb)` pour faire "clignoter" les sphères. Très utile pour récupérer une valeur entre -1 et 1, et s'en servir de facteur.
