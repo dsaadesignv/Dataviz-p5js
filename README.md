@@ -40,3 +40,6 @@
   - Chargement d'un fichier de données JSON avec la fonction `loadJSON`.
   - Fonction `img.resize()` pour redimensionner le fond de carte en fonction de la taille du canvas.
   - Création d'une fonction `convert(lat,lon)` pour convertir les coordonnées de latitude et longitude en position `x` et `y`
+---
+- **[04c - sketches/04-loadJSON-c](sketches/04-loadJSON-c)**
+  - Création d'un slider avec `createSlider()` pour parcourir les données
