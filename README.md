@@ -18,8 +18,8 @@
     - Une source pour mieux comprendre le potentiel des boucles : [00 - Functions/boucle-for](sketches/00-Functions/boucle-for)
   - Fonction `map()` pour calculer la position x des `rect(x,y,largeur,hauteur)`.
     - La fonction `map()` en détail : [00 - Functions/map](sketches/00-Functions/map)
-    - Une horloge avec `map()` : [00 - Functions/mapClock](sketches/00-Functions/mapClocl)
-    - Répartition sur `x` des dates extraites d'un .csv : [00 - Functions/mapData](sketches/00-Functions/mapData)
+    - Une horloge avec `map()` : [00 - Functions/map-clock](sketches/00-Functions/map-clock)
+    - Répartition sur `x` des dates extraites d'un .csv : [00 - Functions/map-data](sketches/00-Functions/map-data)
   - `push()` et `pop()` pour isoler les transformations `rotate(radians)` et `translate(x,y)` (sinon tout le canvas est transformé).
 
 ---
