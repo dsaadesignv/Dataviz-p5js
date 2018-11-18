@@ -8,7 +8,8 @@
   - Stockage des données dans un `Array` (tableau).
   - Boucle `for(let i = 0; i < n; i++){ }` pour parcourir le tableau.
   - Fonction `map()` pour calculer la position x des `rect(x,y,largeur,hauteur)`.
-    - La fonction map() en détail : [00 - Functions/map](sketches/00-Functions/map)
+    - La fonction `map()` en détail : [00 - Functions/map](sketches/00-Functions/map)
+    - Une horloge avec `map()` : [00 - Functions/clock](sketches/00-Functions/clock)
   - `push()` et `pop()` pour isoler les transformations `rotate(radians)` et `translate(x,y)` (sinon tout le canvas est transformé).
 - [02b - sketches/02-Array-b](sketches/02-Array-b)
   - Boucle `for` pour calculer le total et positionner les nouveaux rectangles du diagramme.
