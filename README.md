@@ -9,6 +9,7 @@
   - Utilisation de la propriété `height` du canvas.
 
 ---
+
 ![array](assets/array-a.png)
 
 - **[02a - sketches/02-Array-a](sketches/02-Array-a)**
@@ -36,12 +37,14 @@
   - Propriétés et fonctions de l'objet table : `table.columns` (header des colonnes) ; `getRowCount()` (renvoie le nombre de lignes) ; `getColumn()` (stocke les valeurs d'une colonne dans un tableau).
   - Variable `t` qui augmente de 1 tant qu'elle est plus petite que 40. Condition `if(){ }`.
   - Fonction `text(variable, x, y)`;
+
 ---
 
 ![csv](assets/csv-b.png)
 
 - **[03b - sketches/03-loadCSV-b](sketches/03-loadCSV-b)**
   - Fonction `translate(x,y)` pour décaler le canvas en fonction de la position de la souris `mouseX`.
+
 ---
 
 ![csv](assets/csv-c.png)
@@ -49,15 +52,17 @@
 - **[03c - sketches/03-loadCSV-c](sketches/03-loadCSV-c)**
   - Tracé vectoriel de la ligne avec `beginShape()` et `endShape()`, et la fonction `curveVertex()`.
   - Modulo `%` pour savoir si un nombre est un multiple d'un autre nombre. Pour savoir si un nombre est un multiple de 50, on évalue le reste de la division du nombre par 50 : `if(h%50==0)`. Si il reste 0, ce nombre est bien un multiple de 50;
-  ---
 
-  ![json](assets/json-a.png)
+---
+
+![json](assets/json-a.png)
 
 
 - **[04a - sketches/04-loadJSON-a](sketches/04-loadJSON-a)**
   - Chargement d'un fichier de données JSON avec la fonction `loadJSON`.
   - Récupération des valeurs en parcourant l'objet JSON. Exemple pour la magnitude : `let earthquakeMag = earthquakes.features[i].properties.mag;`
   - Structure conditionnelle pour créer la grille : `if(posX < width-100){ posX += 50; }else{ posY += 50; posX = 50; }`.
+
 ---
 
 ![json](assets/json-b.png)
@@ -66,6 +71,7 @@
   - Chargement d'un fichier de données JSON avec la fonction `loadJSON`.
   - Fonction `img.resize()` pour redimensionner le fond de carte en fonction de la taille du canvas.
   - Création d'une fonction `convert(lat,lon)` pour convertir les coordonnées de latitude et longitude en position `x` et `y`
+
 ---
 
 ![slider](assets/json-c.png)
@@ -73,6 +79,7 @@
 
 - **[04c - sketches/04-loadJSON-c](sketches/04-loadJSON-c)**
   - Création d'un slider avec `createSlider()` pour parcourir les données
+
 ---
 
 ![webgl](assets/json-webgl-d.png)
