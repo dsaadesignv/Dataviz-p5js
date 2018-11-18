@@ -9,7 +9,8 @@
   - Boucle `for(let i = 0; i < n; i++){ }` pour parcourir le tableau.
   - Fonction `map()` pour calculer la position x des `rect(x,y,largeur,hauteur)`.
     - La fonction `map()` en détail : [00 - Functions/map](sketches/00-Functions/map)
-    - Une horloge avec `map()` : [00 - Functions/clockMap](sketches/00-Functions/clockMap)
+    - Une horloge avec `map()` : [00 - Functions/mapClock](sketches/00-Functions/mapClocl)
+    - Répartition sur `x` des dates extraites d'un .csv : [00 - Functions/mapData](sketches/00-Functions/mapData)
   - `push()` et `pop()` pour isoler les transformations `rotate(radians)` et `translate(x,y)` (sinon tout le canvas est transformé).
 - [02b - sketches/02-Array-b](sketches/02-Array-b)
   - Boucle `for` pour calculer le total et positionner les nouveaux rectangles du diagramme.
