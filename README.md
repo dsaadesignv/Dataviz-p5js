@@ -24,12 +24,17 @@
     - Répartition sur `x` des dates extraites d'un .csv : [00 - Functions/map-data](sketches/00-Functions/map-data)
   - `push()` et `pop()` pour isoler les transformations `rotate(radians)` et `translate(x,y)` (sinon tout le canvas est transformé).
 
+[version en ligne](https://editor.p5js.org/makio135/sketches/Sk2VoOWAX) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+
 ---
 
 ![array](assets/array-b.png)
 
 - **[02b - sketches/02-Array-b](sketches/02-Array-b)**
   - Boucle `for` pour calculer le total et positionner les nouveaux rectangles du diagramme.
+
+[version en ligne](https://editor.p5js.org/makio135/sketches/HyDoj_b0m) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+
 ---
 
 ![csv](assets/csv-a.png)
@@ -40,6 +45,8 @@
   - Propriétés et fonctions de l'objet table : `table.columns` (header des colonnes) ; `getRowCount()` (renvoie le nombre de lignes) ; `getColumn()` (stocke les valeurs d'une colonne dans un tableau).
   - Variable `t` qui augmente de 1 tant qu'elle est plus petite que 40. Condition `if(){ }`.
   - Fonction `text(variable, x, y)`;
+
+[version en ligne](https://editor.p5js.org/makio135/sketches/r1cznO-A7) avec [https://editor.p5js.org/](https://editor.p5js.org/)
 
 ---
 
