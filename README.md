@@ -7,7 +7,7 @@
 - **[01 - sketches/01-Sans-boucle](sketches/01-Sans-boucle)**
   - Pas de boucle (!).
   - Utilisation de la propriété `height` du canvas.
-  
+
 [version en ligne](https://editor.p5js.org/makio135/sketches/HkBOK_ZR7) avec [https://editor.p5js.org/](https://editor.p5js.org/)
 
 ---
@@ -17,11 +17,11 @@
 - **[02a - sketches/02-Array-a](sketches/02-Array-a)**
   - Stockage des données dans un `Array` (tableau).
   - Boucle `for(let i = 0; i < n; i++){ }` pour parcourir le tableau.
-    - Une source pour mieux comprendre le potentiel des boucles : [00 - Functions/boucle-for](sketches/00-Functions/boucle-for)
+    - Une source pour mieux comprendre le potentiel des boucles : [00 - Functions/boucle-for](sketches/00-Functions/boucle-for) — [version en ligne](https://editor.p5js.org/jbjoatton/sketches/Hkq5HByCm)
   - Fonction `map()` pour calculer la position x des `rect(x,y,largeur,hauteur)`.
     - La fonction `map()` en détail : [00 - Functions/map](sketches/00-Functions/map)
-    - Une horloge avec `map()` : [00 - Functions/map-clock](sketches/00-Functions/map-clock)
-    - Répartition sur `x` des dates extraites d'un .csv : [00 - Functions/map-data](sketches/00-Functions/map-data)
+    - Une horloge avec `map()` : [00 - Functions/map-clock](sketches/00-Functions/map-clock) — [version en ligne](https://editor.p5js.org/jbjoatton/sketches/BJ3HWxfAm)
+    - Répartition sur `x` des dates extraites d'un .csv : [00 - Functions/map-data](sketches/00-Functions/map-data) — [version en ligne](https://editor.p5js.org/jbjoatton/sketches/r1kYF8d67)
   - `push()` et `pop()` pour isoler les transformations `rotate(radians)` et `translate(x,y)` (sinon tout le canvas est transformé).
 
 [version en ligne](https://editor.p5js.org/makio135/sketches/Sk2VoOWAX) avec [https://editor.p5js.org/](https://editor.p5js.org/)
@@ -55,6 +55,8 @@
 - **[03b - sketches/03-loadCSV-b](sketches/03-loadCSV-b)**
   - Fonction `translate(x,y)` pour décaler le canvas en fonction de la position de la souris `mouseX`.
 
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/BJ1fN7Q6m) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+
 ---
 
 ![csv](assets/csv-c.png)
@@ -62,6 +64,8 @@
 - **[03c - sketches/03-loadCSV-c](sketches/03-loadCSV-c)**
   - Tracé vectoriel de la ligne avec `beginShape()` et `endShape()`, et la fonction `curveVertex()`.
   - Modulo `%` pour savoir si un nombre est un multiple d'un autre nombre. Pour savoir si un nombre est un multiple de 50, on évalue le reste de la division du nombre par 50 : `if(h%50==0)`. Si il reste 0, ce nombre est bien un multiple de 50;
+
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/ByF1TqNpm) avec [https://editor.p5js.org/](https://editor.p5js.org/)
 
 ---
 
@@ -73,6 +77,8 @@
   - Récupération des valeurs en parcourant l'objet JSON. Exemple pour la magnitude : `let earthquakeMag = earthquakes.features[i].properties.mag;`
   - Structure conditionnelle pour créer la grille : `if(posX < width-100){ posX += 50; }else{ posY += 50; posX = 50; }`.
 
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/ry9OYqxpm) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+
 ---
 
 ![json](assets/json-b.png)
@@ -82,6 +88,8 @@
   - Fonction `img.resize()` pour redimensionner le fond de carte en fonction de la taille du canvas.
   - Création d'une fonction `convert(lat,lon)` pour convertir les coordonnées de latitude et longitude en position `x` et `y`
 
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/SJT235lpQ) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+
 ---
 
 ![slider](assets/json-c.png)
@@ -89,6 +97,8 @@
 
 - **[04c - sketches/04-loadJSON-c](sketches/04-loadJSON-c)**
   - Création d'un slider avec `createSlider()` pour parcourir les données
+
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/S1MTAGM6Q) avec [https://editor.p5js.org/](https://editor.p5js.org/)
 
 ---
 
@@ -101,3 +111,5 @@
   - Fonction `mouseWheel(event)` pour surveiller l'utilisation de la molette ou du scroll du pad. La valeur récupérée est affectée la variable permettant de contrôler le zoom (`posZ`).
   - Création d'une fonction `convert(lat,lon)` pour convertir les coordonnées GPS en coordonnées cartésiennes `x`, `y` et `z`.
   - Fonction `sin(nb)` pour faire "clignoter" les sphères. Très utile pour récupérer une valeur entre -1 et 1, et s'en servir de facteur.
+
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/rJ2QKg1AX) avec [https://editor.p5js.org/](https://editor.p5js.org/)
