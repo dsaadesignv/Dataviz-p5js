@@ -1,6 +1,14 @@
 # Dataviz-p5js
 
-## Sketches
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Boucle for et Array](#boucle-for-et-array)
+- [Charger des données depuis un fichier .csv](#charger-des-donnes-depuis-un-fichier-csv)
+- [Charger des données depuis un fichier .json ou .geojson](#charger-des-donnes-depuis-un-fichier-json-ou-geojson)
+
+<!-- /TOC -->
+
+## Boucle for et Array
 
 ![noloop](assets/no-loop.png)
 
@@ -37,6 +45,8 @@
 
 ---
 
+## Charger des données depuis un fichier .csv
+
 ![csv](assets/csv-a.png)
 
 - **[03a - sketches/03-loadCSV-a](sketches/03-loadCSV-a)**
@@ -68,6 +78,8 @@
 [version en ligne](https://editor.p5js.org/jbjoatton/sketches/ByF1TqNpm) avec [https://editor.p5js.org/](https://editor.p5js.org/)
 
 ---
+
+## Charger des données depuis un fichier .json ou .geojson
 
 ![json](assets/json-a.png)
 
