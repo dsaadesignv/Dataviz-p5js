@@ -3,8 +3,8 @@
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Boucle for et Array](#boucle-for-et-array)
-- [Charger des données depuis un fichier .csv](#charger-des-donnes-depuis-un-fichier-csv)
-- [Charger des données depuis un fichier .json ou .geojson](#charger-des-donnes-depuis-un-fichier-json-ou-geojson)
+- [Charger des data depuis un fichier .csv](#charger-des-data-depuis-un-fichier-csv)
+- [Charger des data depuis un fichier .json ou .geojson](#charger-des-data-depuis-un-fichier-json-ou-geojson)
 
 <!-- /TOC -->
 
@@ -45,7 +45,7 @@
 
 ---
 
-## Charger des données depuis un fichier .csv
+## Charger des data depuis un fichier .csv
 
 ![csv](assets/csv-a.png)
 
@@ -79,7 +79,7 @@
 
 ---
 
-## Charger des données depuis un fichier .json ou .geojson
+## Charger des data depuis un fichier .json ou .geojson
 
 ![json](assets/json-a.png)
 
