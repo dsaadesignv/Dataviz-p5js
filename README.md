@@ -125,3 +125,14 @@
   - Fonction `sin(nb)` pour faire "clignoter" les sphères. Très utile pour récupérer une valeur entre -1 et 1, et s'en servir de facteur.
 
 [version en ligne](https://editor.p5js.org/jbjoatton/sketches/rJ2QKg1AX) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+
+---
+
+![scroll](assets/js-scroll.png)
+
+- **[05a - sketches/05-js-scroll](sketches/05-js-scroll)**
+  - Récupération de la valeur scrollY avec window.addEventListener
+  - Création du canvas dans un élément "parent" avec la fonction canvas.parent()
+  - Positionnement fixe avec CSS position:fixed
+
+[version en ligne](https://dev.jbjttn.fr/Dataviz-p5js/sketches/05-js-scroll/)
