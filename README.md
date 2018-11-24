@@ -137,3 +137,14 @@
   - Positionnement fixe avec CSS `position:fixed`
 
 [version en ligne](https://dev.jbjttn.fr/Dataviz-p5js/sketches/05-js-scroll/)
+
+---
+
+![setinterval](assets/setinterval.png)
+
+- **[05b - sketches/05-js-setinterval](sketches/05-js-setinterval)**
+  - `setInterval(fonction, délai en ms)` permet de répéter des instructions à intervalles réguliers
+  - fonction `arc()` pour dessiner le "pie chart"
+  - fonction `lerp()` pour interpoler la valeur de l'angle de 0 à la valeur souhaitée
+
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/rJS-vp8C7M) avec [https://editor.p5js.org/](https://editor.p5js.org/)
