@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height:3000px;
+
+}
+#sketch {
+  display: block;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+}
+
+#content{
+  margin-top: 800px;
+  width:30%;
+  z-index: 99;
+  background: #fff;
+  padding: 30px;
+  margin-left: 30px;
+}
