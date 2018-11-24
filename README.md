@@ -1,13 +1,12 @@
 # Dataviz-p5js
-
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Boucle for et Array](#boucle-for-et-array)
 - [Charger des data depuis un fichier .csv](#charger-des-data-depuis-un-fichier-csv)
 - [Charger des data depuis un fichier .json ou .geojson](#charger-des-data-depuis-un-fichier-json-ou-geojson)
+- [Javascript et p5.js](#javascript-et-p5js)
 
 <!-- /TOC -->
-
 ## Boucle for et Array
 
 ![noloop](assets/no-loop.png)
@@ -128,11 +127,13 @@
 
 ---
 
+## Javascript et p5.js
+
 ![scroll](assets/js-scroll.png)
 
 - **[05a - sketches/05-js-scroll](sketches/05-js-scroll)**
-  - Récupération de la valeur scrollY avec window.addEventListener
-  - Création du canvas dans un élément "parent" avec la fonction canvas.parent()
-  - Positionnement fixe avec CSS position:fixed
+  - Récupération de la valeur scrollY avec `window.addEventListener`
+  - Création du canvas dans un élément "parent" avec la fonction `canvas.parent()`
+  - Positionnement fixe avec CSS `position:fixed`
 
 [version en ligne](https://dev.jbjttn.fr/Dataviz-p5js/sketches/05-js-scroll/)
