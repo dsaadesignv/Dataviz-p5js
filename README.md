@@ -156,5 +156,6 @@
 
 - **[05c - sketches/05-js-setinterval-lerp](sketches/05-js-setinterval-lerp)**
   - Affichage progressif du digramme avec `setInterval()` et `lerp()`
+  - Fonction `resizeCanvas()`
 
 [version en ligne](https://editor.p5js.org/jbjoatton/sketches/Syh3FCvC7) avec [https://editor.p5js.org/](https://editor.p5js.org/)

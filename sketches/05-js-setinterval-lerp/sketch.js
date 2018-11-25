@@ -31,3 +31,7 @@ setInterval(function(){
   	index+=1;
   }
 },100);
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
