@@ -148,3 +148,13 @@
   - fonction `lerp()` pour interpoler la valeur de l'angle de 0 à la valeur souhaitée
 
 [version en ligne](https://editor.p5js.org/jbjoatton/sketches/rJS-vp8C7) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+
+
+---
+
+![setinterval2](assets/setinterval2.png)
+
+- **[05c - sketches/05-js-setinterval-lerp](sketches/05-js-setinterval-lerp)**
+  - Affichage progressif du digramme avec `setInterval()` et `lerp()`
+
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/Syh3FCvC7) avec [https://editor.p5js.org/](https://editor.p5js.org/)
