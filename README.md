@@ -15,7 +15,7 @@
   - Pas de boucle (!).
   - Utilisation de la propriété `height` du canvas.
 
-[version en ligne](https://editor.p5js.org/makio135/sketches/HkBOK_ZR7) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/makio135/sketches/HkBOK_ZR7) avec l'éditeur p5js.
 
 ---
 
@@ -31,7 +31,7 @@
     - Répartition sur `x` des dates extraites d'un .csv : [00 - Functions/map-data](sketches/00-Functions/map-data) — [version en ligne](https://editor.p5js.org/jbjoatton/sketches/r1kYF8d67)
   - `push()` et `pop()` pour isoler les transformations `rotate(radians)` et `translate(x,y)` (sinon tout le canvas est transformé).
 
-[version en ligne](https://editor.p5js.org/makio135/sketches/Sk2VoOWAX) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/makio135/sketches/Sk2VoOWAX) avec l'éditeur p5js.
 
 ---
 
@@ -40,7 +40,7 @@
 - **[02b - sketches/02-Array-b](sketches/02-Array-b)**
   - Boucle `for` pour calculer le total et positionner les nouveaux rectangles du diagramme.
 
-[version en ligne](https://editor.p5js.org/makio135/sketches/HyDoj_b0m) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/makio135/sketches/HyDoj_b0m) avec l'éditeur p5js.
 
 ---
 
@@ -55,7 +55,7 @@
   - Variable `t` qui augmente de 1 tant qu'elle est plus petite que 40. Condition `if(){ }`.
   - Fonction `text(variable, x, y)`;
 
-[version en ligne](https://editor.p5js.org/makio135/sketches/r1cznO-A7) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/makio135/sketches/r1cznO-A7) avec l'éditeur p5js.
 
 ---
 
@@ -64,7 +64,7 @@
 - **[03b - sketches/03-loadCSV-b](sketches/03-loadCSV-b)**
   - Fonction `translate(x,y)` pour décaler le canvas en fonction de la position de la souris `mouseX`.
 
-[version en ligne](https://editor.p5js.org/jbjoatton/sketches/BJ1fN7Q6m) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/BJ1fN7Q6m) avec l'éditeur p5js.
 
 ---
 
@@ -74,7 +74,7 @@
   - Tracé vectoriel de la ligne avec `beginShape()` et `endShape()`, et la fonction `curveVertex()`.
   - Modulo `%` pour savoir si un nombre est un multiple d'un autre nombre. Pour savoir si un nombre est un multiple de 50, on évalue le reste de la division du nombre par 50 : `if(h%50==0)`. Si il reste 0, ce nombre est bien un multiple de 50;
 
-[version en ligne](https://editor.p5js.org/jbjoatton/sketches/ByF1TqNpm) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/ByF1TqNpm) avec l'éditeur p5js.
 
 ---
 
@@ -88,7 +88,7 @@
   - Récupération des valeurs en parcourant l'objet JSON. Exemple pour la magnitude : `let earthquakeMag = earthquakes.features[i].properties.mag;`
   - Structure conditionnelle pour créer la grille : `if(posX < width-100){ posX += 50; }else{ posY += 50; posX = 50; }`.
 
-[version en ligne](https://editor.p5js.org/jbjoatton/sketches/ry9OYqxpm) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/ry9OYqxpm) avec l'éditeur p5js.
 
 ---
 
@@ -99,7 +99,7 @@
   - Fonction `img.resize()` pour redimensionner le fond de carte en fonction de la taille du canvas.
   - Création d'une fonction `convert(lat,lon)` pour convertir les coordonnées de latitude et longitude en position `x` et `y`
 
-[version en ligne](https://editor.p5js.org/jbjoatton/sketches/SJT235lpQ) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/SJT235lpQ) avec l'éditeur p5js.
 
 ---
 
@@ -109,7 +109,7 @@
 - **[04c - sketches/04-loadJSON-c](sketches/04-loadJSON-c)**
   - Création d'un slider avec `createSlider()` pour parcourir les données
 
-[version en ligne](https://editor.p5js.org/jbjoatton/sketches/S1MTAGM6Q) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/S1MTAGM6Q) avec l'éditeur p5js.
 
 ---
 
@@ -123,7 +123,7 @@
   - Création d'une fonction `convert(lat,lon)` pour convertir les coordonnées GPS en coordonnées cartésiennes `x`, `y` et `z`.
   - Fonction `sin(nb)` pour faire "clignoter" les sphères. Très utile pour récupérer une valeur entre -1 et 1, et s'en servir de facteur.
 
-[version en ligne](https://editor.p5js.org/jbjoatton/sketches/rJ2QKg1AX) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/rJ2QKg1AX) avec l'éditeur p5js.
 
 ---
 
@@ -147,7 +147,7 @@
   - fonction `arc()` pour dessiner le "pie chart"
   - fonction `lerp()` pour interpoler la valeur de l'angle de 0 à la valeur souhaitée
 
-[version en ligne](https://editor.p5js.org/jbjoatton/sketches/rJS-vp8C7) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/rJS-vp8C7) avec l'éditeur p5js.
 
 
 ---
@@ -158,4 +158,4 @@
   - Affichage progressif du digramme avec `setInterval()` et `lerp()`
   - Fonction `resizeCanvas()`
 
-[version en ligne](https://editor.p5js.org/jbjoatton/sketches/Syh3FCvC7) avec [https://editor.p5js.org/](https://editor.p5js.org/)
+[version en ligne](https://editor.p5js.org/jbjoatton/sketches/Syh3FCvC7) avec l'éditeur p5js.
